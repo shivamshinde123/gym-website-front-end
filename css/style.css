@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    left: 33px;
+}
+
+.left img {
+    width: 93px;
+    
+}
+
+.left div {
+    text-align: center;
+    color: white;
+    font-size:17px;
+}
+
+.center {
+    /* border: 2px solid green; */
+    display: block;
+    width: 44%;
+    margin: 22px auto;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    right: 33px;
+}
+
+
+.btn {
+    margin: 15px;
+    padding: 3px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border:2px solid grey;
+    border-radius:10px;
+    cursor:pointer;
+    font-family: 'Roboto Condensed', sans-serif
+}
+
+.btn:hover{
+    background-color:rgb(77, 72, 72);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 176px 65px;
+    padding: 74px;
+    display: block;
+    width: 445px;
+    height:260px;
+    border-radius: 10px;
+}
+
+.form-group input, .form-group select{
+    display: block;
+    margin:3px;
+    width:346px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif
+}
+
+.form-group button{
+    display: block;
+    width:355px;
+    margin-left:0px
+}
+
+.form-group select{
+    color: grey;
+    width:353px;
+}
+
